@@ -27,7 +27,7 @@ Publish the website in the LocalHost.
 
 ## PROGRAM :
 ```
-web.html
+WEB.HTML
 
 <!DOCTYPE html>
 <html lang="en">
@@ -37,24 +37,6 @@ web.html
   <title>Home - PharmaCompany</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-image: url('a.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    footer{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #343a40; 
-      color: white;
-      text-align: center;
-      padding: 10px 0; 
-    }
-  </style>
 </head>
 <body>
 
@@ -106,10 +88,12 @@ web.html
       </div>
     </div>
   </div>
+  <body background="a.png" style="background-repeat: no-repeat; background-size: cover;">
+
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany. All rights reserved. BY SARANYA S.(212223220101)</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -118,10 +102,10 @@ web.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+ 
+ ABOUT.HTML
 
-about.html
-
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -129,24 +113,6 @@ about.html
   <title>About PharmaCompany</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-image: url('a.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    footer{
-    position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #343a40; 
-      color: white;
-      text-align: center;
-      padding: 10px 0; 
-    }
-  </style>
 </head>
 <body>
 
@@ -210,10 +176,12 @@ about.html
       </div>
     </div>
   </div>
+  <body background="a.png" style="background-repeat: no-repeat; background-size: cover;">
+
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany. All rights reserved.  BY SARANYA S.(212223220101)</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -223,7 +191,8 @@ about.html
 </body>
 </html>
 
-product.html
+
+PRODUCT.HTML
 
 <!DOCTYPE html>
 <html lang="en">
@@ -233,24 +202,6 @@ product.html
   <title>Products - PharmaCompany</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-image: url('a.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    footer{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #343a40; 
-      color: white;
-      text-align: center;
-      padding: 10px 0; 
-    }
-  </style>
 </head>
 <body>
 
@@ -294,7 +245,7 @@ product.html
         <h1>Our Products</h1>
         <div class="card-deck">
           <div class="card">
-            <img src="i.png" class="card-img-top" alt="Product 1">
+            <img src="i.png" class="card-img-top" alt="Product 1" width="200" height="200">
             <div class="card-body">
               <h5 class="card-title">Product 1</h5>
               <p class="card-text">Everherb Karela Jamun Juice - Helps Maintains Healthy Sugar Levels -Helps In Weight Management - 1l.</p>
@@ -302,7 +253,7 @@ product.html
             </div>
           </div>
           <div class="card">
-            <img src="j.png" class="card-img-top" alt="Product 2">
+            <img src="j.png" class="card-img-top" alt="Product 2" width="200" height="200">
             <div class="card-body">
               <h5 class="card-title">Product 2</h5>
               <p class="card-text">Calcimax Forte Plus Strip Of 30 Tablets.</p>
@@ -310,7 +261,7 @@ product.html
             </div>
           </div>
           <div class="card">
-            <img src="k.png" class="card-img-top" alt="Product 3">
+            <img src="k.png" class="card-img-top" alt="Product 3" width="200" height="200">
             <div class="card-body">
               <h5 class="card-title">Product 3</h5>
               <p class="card-text">Healthkart Calcium Tablets For Men & Women With Vitamin D3 For Complete Bone Health & Joint (60 No).</p>
@@ -324,8 +275,10 @@ product.html
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany. All rights reserved.  BY SARANYA S.(212223220101)</p>
   </footer>
+  <body background="a.png" style="background-repeat: no-repeat; background-size: cover;">
+
 
   <!-- Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
@@ -334,7 +287,8 @@ product.html
 </body>
 </html>
 
-contact.html
+
+CONTACT.HTML
 
 <!DOCTYPE html>
 <html lang="en">
@@ -344,24 +298,6 @@ contact.html
   <title>Contact Us - PharmaCompany</title>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Custom CSS -->
-  <style>
-    body {
-      background-image: url('a.png');
-      background-size: cover;
-      background-repeat: no-repeat;
-    }
-    footer{
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: #343a40; 
-      color: white;
-      text-align: center;
-      padding: 10px 0; 
-    }
-  </style>
 </head>
 <body>
 
@@ -426,10 +362,12 @@ contact.html
       </div>
     </div>
   </div>
+  <body background="a.png" style="background-repeat: no-repeat; background-size: cover;">
+
 
   <!-- Footer -->
   <footer class="bg-dark text-white text-center py-4 mt-5">
-    <p>&copy; 2024 PharmaCompany. All rights reserved.</p>
+    <p>&copy; 2024 PharmaCompany. All rights reserved.  BY SARANYA S.(212223220101)</p>
   </footer>
 
   <!-- Bootstrap JS -->
@@ -438,12 +376,18 @@ contact.html
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+
 ```
+
+
+
+
 ## OUTPUT:
-![alt text](l.png)
-![alt text](m.png)
-![alt text](n.png)
-![alt text](o.png)
+![alt text](I.png)
+![alt text](J.png)
+![alt text](K.png)
+![alt text](<L copy.png>)
+
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
